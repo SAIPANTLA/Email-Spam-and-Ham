@@ -26,7 +26,4 @@ if st.button('Predict'):
         st.write("This Email is NOT SPAM,it's SAFE")
         st.image(r"ham.jpeg")
 
-        st.write("This Email is NOT SPAM,it's SAFE")
-        st.image(r"ham.jpeg")
-
 
