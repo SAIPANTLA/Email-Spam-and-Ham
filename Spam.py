@@ -12,7 +12,7 @@ model = pickle.load(open(r"model.pkl", "rb"))
 model1= pickle.load(open(r"model1.pkl", "rb"))
 
 # Input text box
-email=st.text_input("Please Enter Your Email text to classify")
+email=st.text_area("Please Enter Your Email text to classify")
 checking=model1.transform([email])
 prediction = model.predict(checking)[0]
 
