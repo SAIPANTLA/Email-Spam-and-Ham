@@ -27,6 +27,6 @@ if st.button('Predict'):
         st.image(r"ham.jpeg")
 
         st.write("This Email is NOT SPAM,it's SAFE")
-        st.image(r"C:\Users\SK\Downloads\ham.jpeg")
+        st.image(r"ham.jpeg")
 
 
